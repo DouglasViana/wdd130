@@ -13,22 +13,35 @@ header {
     font-weight: 350;
     font-style: italic;
     font-variation-settings:"wdth" 100;
-
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    align-items: center;
+    padding: 20px;
 }
 
 header a {
     margin: 30px;
 }
 
-a {
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 18px;
 }
 
 body {
   font-family: "Fauna One", serif;
   background-color: var(--accent2-color);
 }
+
 .hero div{
     position: relative;
     
