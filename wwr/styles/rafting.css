@@ -9,7 +9,6 @@
 header {
     background-color: var(--first-background-color);
     font-family: "Fauna One", serif;
-    font-optical-sizing: auto;
     font-weight: 350;
     font-style: italic;
     font-variation-settings:"wdth" 100;
@@ -23,6 +22,9 @@ header a {
     margin: 30px;
 }
 
+header img {
+    width: 150px;
+}
 
 nav ul {
     display: flex;
@@ -63,10 +65,10 @@ body {
 
 .hero img{
     float: right;
-    width: 100;
+    width: 600px;
 }
 
-.hero article img{
+.second {
     position:static;
     margin: auto;
     display: inline-block;
