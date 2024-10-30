@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The purpose of this page is for the user to be able to contact our company.">
+    <meta name="author" content="Douglas Viana">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet">
+    <title>Rafting Adventure - Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    
+</head>
+<body>
+   <header>
+      <img src="images/brownrafting.webp" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+   </header> 
+   <main>
+    <h1>Adventures Awaits for you</h1>
+    <section class="trips">
+        
+       <figure>
+          <img src="images/happy_employees3.webp" alt="trip 1">
+          <p>place name</p>
+        </figure>
+        <figure>
+          <img src="images/happy_employees1.webp" alt="trip 2">
+          <p>place name</p>
+        </figure>
+        <figure>
+          <img src="images/happy_employees4.webp" alt="trip 3">
+          <p>place name</p>
+        </figure>
+    </section>
+
+    <form>
+      <fieldset>
+      <legend>Contact Information</legend>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+     </fieldset>
+     <fieldset>
+      <label>Purpose of Message</label>
+      <legend>Purpose of Message</legend>
+      <div class="radio-group">
+          <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+          <label for="general">General Inquiry</label><br>
+          
+          <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+          <label for="reservation">Reservation Question</label><br>
+          
+          <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+          <label for="suggestion">Website Suggestion</label>
+      </div>
+      </fieldset>
+      <fieldset>
+      <legend>Message</legend>
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <div class="newsletter">
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+      </div>
+      </fieldset>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-details">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9723.424181482826!2d-69.02767210619608!3d12.215618735253969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e849b98460990c3%3A0x524e2520e8e6de0!2sKunuku%20Aqua%20Resort!5e0!3m2!1spt-BR!2sbr!4v1729872168023!5m2!1spt-BR!2sbr" 
+        width="400" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Address:</strong> Weg Naar Westpunt, Tera Kora, Curaçao</p>
+        <p><strong>Phone:</strong> +599 9 864 4455</p>
+        <p><strong>Email:</strong> contact@raftingadventure.com</p>
+      </div>
+    </div>
+   </main>
+   <footer>
+    <p>  © 2024 Rafting Company | Douglas Viana</p>
+    <nav class="sociallinks">
+        <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com"><img src="images/twitter.png" alt="X"></a>
+        <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+    </nav>
+   </footer>
+</body>
+</html>
